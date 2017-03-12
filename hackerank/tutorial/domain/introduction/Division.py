@@ -4,7 +4,7 @@
 import unittest
 
 
-def divInt(intA, intB):
+def div_int(intA, intB):
     return intA // intB
 
 
@@ -26,6 +26,6 @@ class Test(unittest.TestCase):
         self.assertEqual(1.3333333333333333, div(4, 3))
 
     def testDivisionInt(self):
-        self.assertEqual(1, divInt(1, 1))
-        self.assertEqual(0, divInt(2, 3))
-        self.assertEqual(1, divInt(4, 3))
+        self.assertEqual(1, div_int(1, 1))
+        self.assertEqual(0, div_int(2, 3))
+        self.assertEqual(1, div_int(4, 3))
